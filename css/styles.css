@@ -1,0 +1,153 @@
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+html {
+  font-size: 22px;
+}
+
+body {
+  margin: 0;
+}
+
+h2, h3, h4, h5 {
+  margin: 1.17% 0;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 3.14rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  width: auto;
+  height: 72.46%;
+  margin-top: 0.45rem;
+  margin-left: 0.77%;
+  float: left;
+}
+
+header ul {
+  height: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header li {
+  margin: 0 0.92%;
+}
+
+/* main section */
+
+#our-mission {
+  width: 92.31%;
+  height: 31.82rem;
+  margin: 0 auto;
+  background-image: url("../img/img-mission-background.jpg");
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+
+  margin-top: 3.14rem;
+}
+
+#our-mission .container {
+  width: 100%;
+  margin: 0 auto;
+  opacity: 1;
+}
+
+/* supporting section */
+
+.supporting {
+  margin-top: 3.91rem;
+}
+
+#tea-of-the-month {
+  width: 83.33%;
+  margin: 0 auto;
+}
+
+#tea-of-the-month .container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-card {
+  flex-shrink: 0;
+  width: 300px;
+  margin: 1.09rem 1.25%;
+}
+
+.tea-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.45rem;
+}
+
+#locations {
+  width: 92.31%;
+  height: 22.73rem;
+  margin: 0 auto;
+  padding-top: 3rem;
+  background-image: url("../img/img-locations-background.jpg");
+  background-size: cover;
+}
+
+#locations h2 {
+  background-color: transparent;
+}
+
+#locations .container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: transparent;
+  opacity: 1;
+}
+
+.location-card {
+  width: 25%;
+  min-width: 289px;
+  margin: 0.55rem 1.67%;
+  padding-top: 1rem;
+  opacity: 1;
+}
+
+.location-card p {
+  line-height: 2.27;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+}
+
+footer .container {
+  height: 9.09rem;
+}
+
+footer .container h5 {
+  line-height: 2.45;
+}
+
+footer > h5 {
+  text-align: left;
+  margin-left: 1.54%;
+}
