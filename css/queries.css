@@ -93,3 +93,25 @@
     width: 445px;
   }
 }
+
+@media only screen and (min-resolution: 150dpi) and (orientation: portrait) {
+  html {
+    font-size: 40px;
+  }
+
+  #our-misson {
+    width: 100%;
+  }
+
+  .tea-card {
+    width: 550px;
+  }
+
+  #locations {
+    width: 100%;
+  }
+
+  .location-card {
+    width: 43%;
+  }
+}
