@@ -102,4 +102,8 @@
   #locations {
     width: 100%;
   }
+
+  .location-card {
+    width: 43%;
+  }
 }
