@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (max-width: 780px), (orientation: portrait) {
+@media only screen and (max-width: 780px)  {
   header img {
     float: none;
   }
@@ -71,13 +71,13 @@
   }
 }
 
-@media only screen and (max-width: 620px), (orientation: portrait) {
+@media only screen and (max-width: 620px) {
   .tea-card {
     width: 500px;
   }
 }
 
-@media only screen and (max-width: 570px), (orientation: portrait) {
+@media only screen and (max-width: 570px) {
   .location-card {
     min-width: 150px;
     height: 8rem;
@@ -88,7 +88,7 @@
   }
 }
 
-@media only screen and (max-width: 540px), (orientation: portrait) {
+@media only screen and (max-width: 540px) {
   .tea-card {
     width: 445px;
   }
