@@ -96,15 +96,17 @@
 
 @media only screen and (min-resolution: 150dpi) and (orientation: portrait) {
   html {
-    font-size: 40px;
+    font-size: 52px;
   }
 
   #our-misson {
     width: 100%;
+    margin: 0;
   }
 
   .tea-card {
-    width: 550px;
+    width: 650px;
+    margin: 1.09rem auto;
   }
 
   #locations {
